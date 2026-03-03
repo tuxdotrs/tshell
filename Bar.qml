@@ -23,11 +23,12 @@ Scope {
                 top: true
             }
 
-            implicitHeight: 40
+            implicitHeight: 50
             implicitWidth: 1150
 
             Rectangle {
                 anchors.fill: parent
+                anchors.topMargin: 10
                 radius: Appearance.radius
                 color: Appearance.colors.background
 
